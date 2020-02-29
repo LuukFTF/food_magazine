@@ -9,6 +9,7 @@
             <li class="menu-item"><a href="#">Account Register</a></li>
             <li class="menu-item"><a href="#">Login</a></li>
             <li class="menu-item"><a href="#">Logout</a></li>
+            <li class="menu-item"><a href="../food_magazine/webservice/includes/actions.php">JSON</a></li>
         </ul>
     </nav>
 </header>
