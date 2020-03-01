@@ -36,12 +36,34 @@ a {
     box-shadow: 4px 4px 5px black;
 }
 
+.button {
+    /*text-align: center;*/
+    list-style-type: none;
+}
+
+.button > a {
+
+
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    background-color: #3d3aa6;
+    box-shadow: 4px 4px 5px black;
+}
+
+
 .logo {
 
 }
 
 
 .container {
+     margin: 0 auto;
+     width: 70%;
+ }
+
+.item {
     margin: 0 auto;
     width: 70%;
 }
@@ -72,7 +94,7 @@ a {
 }
 
 .page {
-    background-color: #FFFFFF;
+    background-color: #e6e6e6;
     display: block;
 
     box-shadow: 4px 4px 5px #91baba;
@@ -84,6 +106,22 @@ a {
 
     width: auto;
     height: auto;
+}
+
+
+.block {
+    background-color: #FFFFFF;
+    display: block;
+
+    box-shadow: 4px 4px 5px #91baba;
+
+    margin: 20px auto;
+
+
+    padding: 50px;
+
+    width: 50%;
+    height: 50%;
 }
 
 .footer {
