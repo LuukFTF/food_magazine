@@ -4,15 +4,53 @@
     <meta charset="UTF-8">
     <title>Luuk's Food Magazine</title>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="js/main.js"></script>
 </head>
 <body>
 
 <!--header-->
 <?php include 'includes/header.php'; ?>
 
-<main class="main">
-    <div class="container page">
+
+
+<main>
+    <div class="parent-main">
         <h1>Luuk's Food Magazine</h1>
+        <div class="parent-food">
+            <div class="child-food food-hover">
+                <h1>Pizza</h1>
+                <p>Picture</p>
+                <p>Star <input type="checkbox"></p>
+                <p>Show Details</p>
+                <!--        <button type="button" class="button">Show Details</button>-->
+                <li class="button"><a href="/">Show Details</a></li>
+            </div>
+            <div class="child-food food-hover">
+                <h1>Pizza</h1>
+                <p>Picture</p>
+                <p>Star <input type="checkbox"></p>
+                <p>Show Details</p>
+                <!--        <button type="button" class="button">Show Details</button>-->
+                <li class="button"><a href="/">Show Details</a></li>
+            </div>
+            <div class="child-food food-hover">
+                <h1>Pizza</h1>
+                <p>Picture</p>
+                <p>Star <input type="checkbox"></p>
+                <p>Show Details</p>
+                <!--        <button type="button" class="button">Show Details</button>-->
+                <li class="button"><a href="/">Show Details</a></li>
+            </div>
+
+        </div>
+    </div>
+</main>
+
+
+
+    <h1>Luuk's Food Magazine</h1>
+    <div class="container page">
+
 
         <p></p>
 
@@ -46,10 +84,6 @@
 
 
     </div>
-
-
-
-</main>
 
 
 
