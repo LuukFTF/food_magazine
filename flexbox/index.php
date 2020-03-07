@@ -9,7 +9,7 @@
 <body>
 
 <!--header-->
-<?php //include '../includes/header.php'; ?>
+<?php include '../includes/header.php'; ?>
 
 
 
@@ -82,10 +82,7 @@
 
 
 <!--footer-->
-<?php //include '../includes/footer.php'; ?>
-
-
-<!-- TODO -->
+<?php include '../includes/footer.php'; ?>
 
 </body>
 </html>

@@ -16,8 +16,8 @@
 <main>
     <div class="parent-main">
         <h1>Luuk's Food Magazine</h1>
-        <div class="parent-food">
-            <div class="child-food food-hover">
+        <div class="container">
+            <div class="item food-hover">
                 <h1>Pizza</h1>
                 <p>Picture</p>
                 <p>Star <input type="checkbox"></p>
@@ -25,16 +25,48 @@
                 <!--        <button type="button" class="button">Show Details</button>-->
                 <li class="button"><a href="/">Show Details</a></li>
             </div>
-            <div class="child-food food-hover">
-                <h1>Pizza</h1>
+            <div class="item food-hover">
+                <h1>Boerenkool</h1>
                 <p>Picture</p>
                 <p>Star <input type="checkbox"></p>
                 <p>Show Details</p>
                 <!--        <button type="button" class="button">Show Details</button>-->
                 <li class="button"><a href="/">Show Details</a></li>
             </div>
-            <div class="child-food food-hover">
-                <h1>Pizza</h1>
+            <div class="item special-item food-hover">
+                <h1>Lasagna</h1>
+                <p>Picture</p>
+                <p>Star <input type="checkbox"></p>
+                <p>Show Details</p>
+                <!--        <button type="button" class="button">Show Details</button>-->
+                <li class="button"><a href="/">Show Details</a></li>
+            </div>
+            <div class="item food-hover">
+                <h1>Kebab</h1>
+                <p>Picture</p>
+                <p>Star <input type="checkbox"></p>
+                <p>Show Details</p>
+                <!--        <button type="button" class="button">Show Details</button>-->
+                <li class="button"><a href="/">Show Details</a></li>
+            </div>
+            <div class="item food-hover">
+                <h1>Paella</h1>
+                <p>Picture</p>
+                <p>Star <input type="checkbox"></p>
+                <p>Show Details</p>
+                <!--        <button type="button" class="button">Show Details</button>-->
+                <li class="button"><a href="/">Show Details</a></li>
+            </div>
+            <div class="item food-hover">
+                <h1>Patat</h1>
+                <p>Picture</p>
+                <p>Star <input type="checkbox"></p>
+                <p>Show Details</p>
+                <!--        <button type="button" class="button">Show Details</button>-->
+                <li class="button"><a href="/">Show Details</a></li>
+            </div>
+            <div class="item food-hover">
+                <h1>Babi Panggang</h1>
                 <p>Picture</p>
                 <p>Star <input type="checkbox"></p>
                 <p>Show Details</p>
@@ -45,45 +77,6 @@
         </div>
     </div>
 </main>
-
-
-
-    <h1>Luuk's Food Magazine</h1>
-    <div class="container page">
-
-
-        <p></p>
-
-        <div class="item block">
-            <h1>Pizza</h1>
-            <p>Picture</p>
-            <p>Star <input type="checkbox"></p>
-            <p>Show Details</p>
-            <!--        <button type="button" class="button">Show Details</button>-->
-            <li class="button"><a href="/">Show Details</a></li>
-        </div>
-
-        <div class="item block">
-            <h1>Pizza</h1>
-            <p>Picture</p>
-            <p>Star <input type="checkbox"></p>
-            <p>Show Details</p>
-            <!--        <button type="button" class="button">Show Details</button>-->
-            <li class="button"><a href="/">Show Details</a></li>
-        </div>
-
-        <div class="detail block">
-            <h1>Food</h1>
-            <p>Starred <input type="checkbox"></p>
-            <h1>Recipe</h1>
-            <p>Stop het in de oven en gaan met die banaan.. ehh pizza!</p>
-            <h1>Tags</h1>
-            <p>kaas, oven, tomatensaus</p>
-
-        </div>
-
-
-    </div>
 
 
 
