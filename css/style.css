@@ -4,9 +4,14 @@
 /*}*/
 
 
+:root {
+    --header-size: 170px;
+}
+
 
 body {
-    background-color: #FFFFFF;
+    background-color: var(--main-bg-color);
+    /*background-color: #FFFFFF;*/
     color: #2a2a2a;
     font-family: 'Arial';
     margin: 0;
@@ -14,7 +19,16 @@ body {
 }
 
 a {
-    color: #a62629;
+    color: #424fa6;
+
+}
+
+main {
+    margin-top: var(--header-size);
+}
+
+header {
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.7);
 }
 
 .menu {
@@ -34,7 +48,13 @@ a {
     padding: 20px;
     color: white;
     background-color: #3d3aa6;
-    box-shadow: 4px 4px 5px black;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.7);
+}
+
+.menu-item > a:hover {
+    background-color: #423fd7;
+    color: white;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.7);
 }
 
 .button {
@@ -50,33 +70,68 @@ a {
     padding: 20px;
     color: white;
     background-color: #3d3aa6;
-    box-shadow: 4px 4px 5px black;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.7);
 }
 
+
+.button > a:hover {
+    background-color: #423fd7;
+    color: white;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.7);
+}
 
 .logo {
 
 }
 
-
-
-
 .container {
+
+}
+
+.sidebar {
+    float: right;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    height: 900px;
+    width: 30%;
+}
+
+.sidebar-item {
+    display: block;
+    order: integer;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 25%;
+
+    background-color: #e6e6e6;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+
+    margin: 10px;
+    padding: 20px;
+
+
+}
+
+
+.parent-main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
 }
 
 .item {
+    display: block;
     order: integer;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 20%;
 
     background-color: #e6e6e6;
-    display: block;
-
-    box-shadow: 4px 4px 5px #91baba;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
 
     margin: 10px;
     padding: 20px;
@@ -84,7 +139,8 @@ a {
 }
 
 .special-item {
-    flex-grow: 2;
+
+    align-items: flex-end;
 
 }
 
@@ -95,10 +151,15 @@ a {
 
     margin: 0 auto;
 
-    padding: 10px;
+    --header-padding: 20px;
+    padding: var(--header-padding);
 
-    width: calc(100% - 2 * 10px);
+    width: calc(100% - 2 * var(--header-padding));
     height: auto;
+
+    position: fixed;
+    top: 0;
+    z-index: 2; /* Stay on top */
 }
 
 .footer {

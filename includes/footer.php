@@ -1,3 +1,3 @@
 <footer class="footer">
-    <p>Footer</p>
+    <p>Luuk's Food Magazine</p>
 </footer>
