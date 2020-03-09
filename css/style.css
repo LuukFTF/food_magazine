@@ -5,7 +5,7 @@
 
 
 :root {
-    --header-size: 170px;
+    --header-size: 145px;
 }
 
 
@@ -24,7 +24,11 @@ a {
 }
 
 main {
-    margin-top: var(--header-size);
+    margin: var(--header-size) auto auto;
+    width: 80%;
+    padding: 2%;
+    min-height: 80vh;
+
 }
 
 header {
