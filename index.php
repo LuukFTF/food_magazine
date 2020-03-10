@@ -24,6 +24,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cum dicta iure magnam nostrum nulla recusandae reiciendis repellat repudiandae veniam.</p>
         </div>
 
+
     </div>
     <div class="parent-main">
         <div class="item food-hover">
